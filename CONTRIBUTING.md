@@ -35,8 +35,8 @@ testbed and a distributable addon bundle.
    godot --headless --path . --quit-after 5 test/run_tests.tscn
    ```
 4. Confirm no errors in the Godot output log.
-5. Commit with message `addon(<name>): <description>` or
-   `scene(<name>): <description>`.
+5. Commit with a sentence-case message describing what changed,
+   e.g. `Add MToon parameter export for hair materials`.
 
 ## Design notes
 
